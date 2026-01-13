@@ -186,7 +186,7 @@ const LoginScreen = () => {
       {/* 👇 ALL USERS DISPLAY */}
       {savedUsers.length > 0 && (
         <ScrollView style={styles.savedBox}>
-          <Text style={styles.savedTitle}>Login History</Text>
+          <Text style={styles.savedTitle}>User History</Text>
 
           {savedUsers.map((item, index) => (
             <View key={index} style={styles.userRow}>
