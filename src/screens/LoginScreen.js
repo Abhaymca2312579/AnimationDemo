@@ -156,7 +156,7 @@ const LoginScreen = () => {
           <Text style={styles.closeText}>✕</Text>
         </TouchableOpacity>
 
-        <Text style={styles.title}>Welcome Back</Text>
+        <Text style={styles.title}>Welcome </Text>
 
         <TextInput
           placeholder="User ID"
